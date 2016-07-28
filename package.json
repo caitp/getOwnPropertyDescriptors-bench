@@ -1,0 +1,28 @@
+{
+  "name": "getownpropertydescriptors-bench",
+  "version": "1.0.0",
+  "description": "Benchmark for Object.getOwnPropertyDescriptors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caitp/getOwnPropertyDescriptors-bench.git"
+  },
+  "keywords": [
+    "Benchmark",
+    "ES7",
+    "jsperf"
+  ],
+  "author": "Caitlin Potter <caitp@igalia.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caitp/getOwnPropertyDescriptors-bench/issues"
+  },
+  "homepage": "https://github.com/caitp/getOwnPropertyDescriptors-bench#readme",
+  "dependencies": {
+    "benchmark": "^2.1.1",
+    "ecma-proposal-object.getownpropertydescriptors": "git+https://github.com/tc39/proposal-object-getownpropertydescriptors.git"
+  }
+}
